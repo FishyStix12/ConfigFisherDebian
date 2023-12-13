@@ -43,8 +43,8 @@ cd ~
 mv config.sh /Bash-Scripts/Config
 sudo apt-get update
 sudo apt-get install terminator
-sudo apt-get figlet
-sudo apt-get lolcat
+sudo apt-get install figlet
+sudo apt-get install lolcat
 sudo apt-get full-upgrade
 
 
