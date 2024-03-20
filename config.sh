@@ -119,6 +119,8 @@ rm Kali-Terminal-Themes-2023-main/README.md
 rmdir Kali-Terminal-Themes-2023-main/
 rm Kali-Terminal-Themes-2023-main.zip
 rm LogScripts-main.zip
+rm discord*
+rm opera*
 cd ~
 mv config.sh /Bash-Scripts/Config
 cd Go/Config
