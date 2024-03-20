@@ -53,6 +53,7 @@ mv WHGolang-main/interface.go ~/Go/fund
 mv WHGolang-main/pointer.go ~/Go/fund
 mv WHGolang-main/primdat.go ~/Go/fund
 mv WHGolang-main/struct.go ~/Go/fund
+mv WHGolang-main/function.go ~/Go/fund
 rm WHGolang-main/README.md
 rmdir WHGolang-main
 rm WHGolang-main.zip
