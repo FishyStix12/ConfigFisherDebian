@@ -132,6 +132,6 @@ sudo apt-get update
 sudo apt-get install terminator
 sudo apt-get install figlet
 sudo apt-get install lolcat
-sudo apt-get full-upgrade
+sudo apt-get full-upgrade -y
 
 
