@@ -48,6 +48,11 @@ chmod +x Kali-Terminal-Themes-2023-main/*
 mv WHGolang-main/goconfig.sh ~/Go/Config
 mv WHGolang-main/gomods.sh ~/Go/Config
 mv WHGolang-main/hello_world.go ~/Go/fund
+mv WHGolang-main/slicemaps.go ~/Go/fund
+mv WHGolang-main/interface.go ~/Go/fund
+mv WHGolang-main/pointer.go ~/Go/fund
+mv WHGolang-main/primdat.go ~/Go/fund
+mv WHGolang-main/struct.go ~/Go/fund
 rm WHGolang-main/README.md
 rmdir WHGolang-main
 rm WHGolang-main.zip
