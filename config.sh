@@ -73,7 +73,6 @@ mv WHPython_v1.02-main/net_terrorizer.py ~/Python/Sniffs
 mv WHPython_v1.02-main/darknet_recon.py ~/Python/Sniffs
 mv WHPython_v1.02-main/tport_sniffer.py ~/Python/Scapy
 mv WHPython_v1.02-main/file_funneler.py ~/Python/Etc
-mv
 mv WHPython_v1.02-main/arp_poiser.py ~/Python/Scapy
 mv WHPython_v1.02-main/rcap.py ~/Python/Scapy
 mv WHPython_v1.02-main/detect.py ~/Python/Scapy
