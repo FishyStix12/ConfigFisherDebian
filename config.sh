@@ -44,7 +44,7 @@ mv WHGolang-main/goconfig.sh ~/Go/Config
 mv WHGolang-main/gomods.sh ~/Go/Config
 mv WHGolang-main/hello_world.go ~/Go/fund
 rm WHGolang-main/README.md
-rmdir WHGOlang-main
+rmdir WHGolang-main
 rm WHGolang-main.zip
 mv WHPython_v1.02-main/abyssalobserver.py ~/Python/Tmods
 mv WHPython_v1.02-main/auto_bruteforce.py ~/Python/Tmods
