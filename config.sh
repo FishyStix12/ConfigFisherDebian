@@ -22,6 +22,7 @@ mkdir Python/Web
 mkdir Python/Frame
 mkdir Python/Frame/Config
 mkdir Python/Tmods
+mkdir Python/Etc
 mkdir Python/Survey
 mkdir Python/Extract
 mkdir Python/Hier
@@ -71,6 +72,8 @@ mv WHPython_v1.02-main/rforward.py ~/Python/NetTools
 mv WHPython_v1.02-main/net_terrorizer.py ~/Python/Sniffs
 mv WHPython_v1.02-main/darknet_recon.py ~/Python/Sniffs
 mv WHPython_v1.02-main/tport_sniffer.py ~/Python/Scapy
+mv WHPython_v1.02-main/file_funneler.py ~/Python/Etc
+mv
 mv WHPython_v1.02-main/arp_poiser.py ~/Python/Scapy
 mv WHPython_v1.02-main/rcap.py ~/Python/Scapy
 mv WHPython_v1.02-main/detect.py ~/Python/Scapy
@@ -84,6 +87,7 @@ mv WHPython_v1.02-main/modul3s.json ~/Python/Frame/Config
 mv WHPython_v1.02-main/github_trojan.py ~/Python/Frame/Config
 mv WHPython_v1.02-main/keylogger.py ~/Python/Survey
 mv WHPython_v1.02-main/screenshotter.py ~/Python/Survey
+mv WHPython_v1.02-main/phantomlock.py ~/Python/Tmods
 mv WHPython_v1.02-main/executer.py ~/Python/Survey
 mv WHPython_v1.02-main/detective_sandbox.py ~/Python/Survey
 mv WHPython_v1.02-main/cryptoraptor.py ~/Python/Extract
