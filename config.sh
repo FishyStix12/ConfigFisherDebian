@@ -123,6 +123,7 @@ rm discord*
 rm opera*
 cd ~
 mv config.sh /Bash-Scripts/Config
+sudo apt-get update
 cd Go/Config
 ./goconfig.sh
 ./gomods.sh
