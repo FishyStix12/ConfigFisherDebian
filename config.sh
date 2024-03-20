@@ -1,5 +1,3 @@
-#Please Download Discord and Opera from the internet before running the script
-#Also please download the log theme and other scripts from github
 # Run in home directory
 mkdir Bash-Scripts
 mkdir Bash-Scripts/Authlog
@@ -31,6 +29,12 @@ mkdir Go
 mkdir Go/Config
 mkdir Go/fund
 cd Downloads/
+wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
+wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
+wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/heads/main.zip" -O "Kali-Terminal-Themes-2023-main.zip"
+wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
+wget -v "https://discord.com/api/download?platform=linux&format=deb" -O "discord-deb.deb"
+wget -v "https://download.opera.com/download/get/?id=65262&location=415&nothanks=yes&sub=marine&utm_tryagain=yes" -O "opera-stable_deb.deb" 
 sudo dpkg -i opera-stable_*
 sudo dpkg -i discord-*
 unzip LogScripts-main.zip
