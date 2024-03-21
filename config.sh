@@ -156,5 +156,3 @@ chmod +x Darkshark24Themes.sh
 mv ./Darkshark24Themes.sh ~/Themes/Fun
 cd ~
 sudo apt-get full-upgrade -y
-
-
