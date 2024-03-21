@@ -1,4 +1,3 @@
-# Run in home directory
 cd ~
 mkdir Bash-Scripts
 mkdir Bash-Scripts/Authlog
