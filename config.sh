@@ -1,4 +1,5 @@
 # Run in home directory
+cd ~
 mkdir Bash-Scripts
 mkdir Bash-Scripts/Authlog
 mkdir Bash-Scripts/Syslog
@@ -28,6 +29,7 @@ mkdir Python/Volat
 mkdir Go
 mkdir Go/Config
 mkdir Go/fund
+mkdir Go/NetTools
 cd Downloads/
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
@@ -35,8 +37,8 @@ wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/h
 wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
 wget -v "https://discord.com/api/download?platform=linux&format=deb" -O "discord-deb.deb"
 wget -v "https://download.opera.com/download/get/?id=65262&location=415&nothanks=yes&sub=marine&utm_tryagain=yes" -O "opera-stable_deb.deb" 
-sudo dpkg -i opera-stable_*
-sudo dpkg -i discord-*
+sudo dpkg -i opera-stable_* -y
+sudo dpkg -i discord-* -y
 unzip LogScripts-main.zip
 unzip Kali-Terminal-Themes-2023-main.zip
 unzip WHGolang-main.zip
@@ -147,8 +149,8 @@ cd Go/Config
 cd ~
 sudo apt-get update
 sudo apt-get install terminator
-sudo apt-get install figlet
-sudo apt-get install lolcat
+sudo apt-get install figlet -y
+sudo apt-get install lolcat -y
 cd Downloads/
 chmod +x Darkshark24Themes.sh
 ./Darkshark24Themes.sh
