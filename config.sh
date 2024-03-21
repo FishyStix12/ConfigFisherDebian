@@ -65,9 +65,6 @@ mv WHGolang-main/type_printer.go ~/Go/fund
 rm WHGolang-main/README.md
 rmdir WHGolang-main
 rm WHGolang-main.zip
-chmod +x Darkshark24Themes.sh
-./Darkshark24Themes.sh
-mv ./Darkshark24Themes.sh ~/Themes/Fun
 mv WHPython_v1.02-main/abyssalobserver.py ~/Python/Tmods
 mv WHPython_v1.02-main/auto_bruteforce.py ~/Python/Tmods
 mv WHPython_v1.02-main/grimreaperexecutor.py ~/Python/Tmods
@@ -152,6 +149,11 @@ sudo apt-get update
 sudo apt-get install terminator
 sudo apt-get install figlet
 sudo apt-get install lolcat
+cd Downloads/
+chmod +x Darkshark24Themes.sh
+./Darkshark24Themes.sh
+mv ./Darkshark24Themes.sh ~/Themes/Fun
+cd ~
 sudo apt-get full-upgrade -y
 
 
