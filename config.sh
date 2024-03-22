@@ -57,7 +57,7 @@ mv WHGolang-main/struct.go ~/Go/fund
 mv WHGolang-main/function.go ~/Go/fund
 mv WHGolang-main/forloop.go ~/Go/fund
 mv WHGolang-main/channels.go ~/Go/fund
-mv WHGolang-main/construct.go ~/Go/fund
+mv WHGolang-main/contstruct.go ~/Go/fund
 mv WHGolang-main/error_handle.go ~/Go/fund
 mv WHGolang-main/friendlydog.go ~/Go/fund
 mv WHGolang-main/goroutines.go ~/Go/fund
