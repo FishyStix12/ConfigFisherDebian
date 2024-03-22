@@ -151,9 +151,9 @@ cd Go/Config
 ./gomods.sh
 cd ~
 sudo apt-get update
-sudo apt-get install terminator
 sudo apt-get install figlet -y
 sudo apt-get install lolcat -y
+sudo apt-get install terminator -y
 cd Downloads/
 chmod +x Darkshark24Themes.sh
 ./Darkshark24Themes.sh
