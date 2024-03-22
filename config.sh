@@ -14,6 +14,7 @@ mkdir Themes/ASCII
 mkdir Themes/emojis
 mkdir Python
 mkdir Python/NetTools
+mkdir Python/PyLib
 mkdir Python/Sniffs
 mkdir Python/Scapy
 mkdir Python/Web
@@ -66,6 +67,8 @@ mv WHGolang-main/type_printer.go ~/Go/fund
 rm WHGolang-main/README.md
 rmdir WHGolang-main
 rm WHGolang-main.zip
+./WHPython_v1.02-main/pylib_config.sh
+mv WHPython_v1.02-main/pylib_config.sh ~/Python/PyLib
 mv WHPython_v1.02-main/abyssalobserver.py ~/Python/Tmods
 mv WHPython_v1.02-main/auto_bruteforce.py ~/Python/Tmods
 mv WHPython_v1.02-main/grimreaperexecutor.py ~/Python/Tmods
