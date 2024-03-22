@@ -67,6 +67,7 @@ mv WHGolang-main/type_printer.go ~/Go/fund
 rm WHGolang-main/README.md
 rmdir WHGolang-main
 rm WHGolang-main.zip
+sudo apt-get update
 ./WHPython_v1.02-main/pylib_config.sh
 mv WHPython_v1.02-main/pylib_config.sh ~/Python/PyLib
 mv WHPython_v1.02-main/abyssalobserver.py ~/Python/Tmods
