@@ -36,8 +36,8 @@ wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/h
 wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
 wget -v "https://discord.com/api/download?platform=linux&format=deb" -O "discord-deb.deb"
 wget -v "https://download.opera.com/download/get/?id=65262&location=415&nothanks=yes&sub=marine&utm_tryagain=yes" -O "opera-stable_deb.deb" 
-sudo dpkg -i opera-stable_*
-sudo dpkg -i discord-*
+sudo dpkg -i opera-stable_* -y
+sudo dpkg -i discord-* -y
 unzip LogScripts-main.zip
 unzip Kali-Terminal-Themes-2023-main.zip
 unzip WHGolang-main.zip
