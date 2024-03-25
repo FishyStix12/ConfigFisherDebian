@@ -119,6 +119,7 @@ mv WHPython_v1.02-main/codeninja.py ~/Python/Extract
 mv WHPython_v1.02-main/tasktactician.py ~/Python/Hier
 mv WHPython_v1.02-main/filetactician.py ~/Python/Hier
 mv WHPython_v1.02-main/volat_conf.sh ~/Python/Volat
+mv WHPython_v1.02-main/dark_wizard_gui.py ~/Python/Sniffs
 rm WHPython_v1.02-main/README.md
 rmdir WHPython_v1.02-main
 rm WHPython_v1.02-main.zip
