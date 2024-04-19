@@ -112,6 +112,7 @@ mv WHPython_v1.02-main/github_trojan.py ~/Python/Frame/Config
 mv WHPython_v1.02-main/keylogger.py ~/Python/Survey
 mv WHPython_v1.02-main/screenshotter.py ~/Python/Survey
 mv WHPython_v1.02-main/XtremeGame.py ~/Python/XFun
+mv WHPython_v1.02-main/XtremeGame2.py ~/Python/XFun
 mv WHPython_v1.02-main/phantomlock.py ~/Python/Tmods
 mv WHPython_v1.02-main/executer.py ~/Python/Survey
 mv WHPython_v1.02-main/detective_sandbox.py ~/Python/Survey
