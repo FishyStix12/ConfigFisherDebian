@@ -83,6 +83,7 @@ mv WHPython_v1.02-main/dirlister.py ~/Python/Tmods
 mv WHPython_v1.02-main/environment.py ~/Python/Tmods
 mv WHPython_v1.02-main/platformer.py ~/Python/Tmods
 mv WHPython_v1.02-main/VenvConfig.sh ~/Python/NetTools
+mv WHPython_v1.02-main/vs_code_pylib_conf.sh ~/Python/PyLib
 mv WHPython_v1.02-main/IDEConfig.sh ~/Python/NetTools
 mv WHPython_v1.02-main/TCPClient.py ~/Python/NetTools
 mv WHPython_v1.02-main/UDPClient.py ~/Python/NetTools
