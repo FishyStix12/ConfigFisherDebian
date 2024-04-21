@@ -69,8 +69,10 @@ rm WHGolang-main/README.md
 rmdir WHGolang-main
 rm WHGolang-main.zip
 sudo apt-get update
-./WHPython_v1.02-main/pylib_config.sh
 mv WHPython_v1.02-main/pylib_config.sh ~/Python/PyLib
+cd ..
+./Python/PyLib/pylib_config.sh
+cd Downloads/
 mv WHPython_v1.02-main/libpcap-pycharm.py ~/Python/PyLib
 mv WHPython_v1.02-main/abyssalobserver.py ~/Python/Tmods
 mv WHPython_v1.02-main/auto_bruteforce.py ~/Python/Tmods
