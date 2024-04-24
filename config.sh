@@ -71,6 +71,7 @@ rm WHGolang-main.zip
 sudo apt-get update
 mv WHPython_v1.02-main/pylib_config.sh ~/Python/PyLib
 cd ..
+sudo apt-get install swig
 ./Python/PyLib/pylib_config.sh
 cd Downloads/
 mv WHPython_v1.02-main/libpcap-pycharm.py ~/Python/PyLib
