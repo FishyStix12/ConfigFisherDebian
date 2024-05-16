@@ -65,6 +65,8 @@ mv WHGolang-main/friendlydog.go ~/Go/fund
 mv WHGolang-main/goroutines.go ~/Go/fund
 mv WHGolang-main/struct_handlejson.go ~/Go/fund
 mv WHGolang-main/type_printer.go ~/Go/fund
+mv WHGolang-main/SimpleScan.go ~/Go/NetTools
+
 rm WHGolang-main/README.md
 rmdir WHGolang-main
 rm WHGolang-main.zip
