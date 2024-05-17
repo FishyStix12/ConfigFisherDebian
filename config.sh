@@ -69,7 +69,8 @@ mv WHGolang-main/SimpleScan.go ~/Go/NetTools
 mv WHGolang-main/Concurrentscan.go ~/Go/NetTools
 mv WHGolang-main/toofast.go ~/Go/NetTools
 mv WHGolang-main/worksfast.go ~/Go/NetTools
-mv WHGolang-main/  ~/Go/NetTools
+mv WHGolang-main/workers.go ~/Go/NetTools
+mv WHGolang-main/ ~/Go/NetTools
 
 rm WHGolang-main/README.md
 rmdir WHGolang-main
