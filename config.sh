@@ -31,6 +31,7 @@ mkdir Go
 mkdir Go/Config
 mkdir Go/fund
 mkdir Go/NetTools
+sudo apt update
 mkdir Python/SubList3r
 cd Python/SubList3r
 git clone https://github.com/aboul3la/Sublist3r.git
@@ -45,7 +46,10 @@ cd sherlock
 python3 -m pip install -r requirements.txt
 python3 sherlock --help
 cd ~
-cd Downloads/
+mkdir Bash-Scripts/UserRecon
+cd Bash-Scripts/UserRecon/
+git clone https://github.com/wishihab/userrecon.git
+cd ~/Downloads/
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
 wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/heads/main.zip" -O "Kali-Terminal-Themes-2023-main.zip"
@@ -190,7 +194,6 @@ chmod +x Darkshark24Themes.sh
 ./Darkshark24Themes.sh
 mv ./Darkshark24Themes.sh ~/Themes/Fun
 cd ~
-sudo apt update
 sudo apt install snapd -y
 sudo snap install core
 sudo snap install gephi
