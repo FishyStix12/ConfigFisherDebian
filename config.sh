@@ -54,10 +54,13 @@ python3 photon.py -h
 cd ~
 mkdir Ruby
 cd Ruby
-git clone https://github.com/digininja/CeWL.git
-cd CeWL
+sudo apt install ruby-full build-essential
+ruby -v
+gem -v
 gem install bundler
 bundle install
+git clone https://github.com/digininja/CeWL.git
+cd ~
 mkdir Bash-Scripts/UserRecon
 cd Bash-Scripts/UserRecon/
 git clone https://github.com/wishihab/userrecon.git
