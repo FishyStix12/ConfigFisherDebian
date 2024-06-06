@@ -190,5 +190,9 @@ chmod +x Darkshark24Themes.sh
 ./Darkshark24Themes.sh
 mv ./Darkshark24Themes.sh ~/Themes/Fun
 cd ~
+sudo apt update
+sudo apt install snapd -y
+sudo snap install core
+sudo snap install gephi
 sudo apt-get full-upgrade -y
 sudo apt autoremove
