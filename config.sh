@@ -37,8 +37,7 @@ git clone https://github.com/aboul3la/Sublist3r.git
 sudo apt-get install python-requests
 sudo apt-get install python-dnspython
 sudo apt-get install python-argparse
-cd ~
-cd Desktop/
+cd ~/Desktop/
 mkdir sherlock
 cd sherlock
 git clone https://github.com/sherlock-project/sherlock.git
