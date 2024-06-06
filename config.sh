@@ -46,6 +46,12 @@ cd sherlock
 python3 -m pip install -r requirements.txt
 python3 sherlock --help
 cd ~
+cd Python/
+pip install tld requests
+git clone https://github.com/s0md3v/Photon.git
+cd Photon
+python3 photon.py -h
+cd ~
 mkdir Bash-Scripts/UserRecon
 cd Bash-Scripts/UserRecon/
 git clone https://github.com/wishihab/userrecon.git
