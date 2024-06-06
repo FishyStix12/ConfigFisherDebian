@@ -31,7 +31,7 @@ mkdir Go
 mkdir Go/Config
 mkdir Go/fund
 mkdir Go/NetTools
-sudo apt update
+sudo apt-get update
 mkdir Python/SubList3r
 cd Python/SubList3r
 git clone https://github.com/aboul3la/Sublist3r.git
@@ -185,7 +185,6 @@ cd Go/Config
 ./goconfig.sh
 ./gomods.sh
 cd ~
-sudo apt-get update
 sudo apt-get install figlet -y
 sudo apt-get install lolcat -y
 sudo apt-get install terminator -y
@@ -194,6 +193,7 @@ chmod +x Darkshark24Themes.sh
 ./Darkshark24Themes.sh
 mv ./Darkshark24Themes.sh ~/Themes/Fun
 cd ~
+sudo apt-get install webhttrack -y
 sudo apt install snapd -y
 sudo snap install core
 sudo snap install gephi
