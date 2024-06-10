@@ -64,6 +64,12 @@ cd ~
 mkdir Bash-Scripts/UserRecon
 cd Bash-Scripts/UserRecon/
 git clone https://github.com/wishihab/userrecon.git
+cd ~
+mkdir Python/OSINT
+cd Python/OSINT
+git clone https://github.com/m4ll0k/Infoga.git infoga
+cd infoga
+python setup.py install
 cd ~/Downloads/
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
