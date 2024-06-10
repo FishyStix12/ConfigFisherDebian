@@ -70,6 +70,12 @@ cd Python/OSINT
 git clone https://github.com/The404Hacking/Infoga.git
 cd Infoga
 pip install -r requirements.txt
+cd ~
+git clone https://github.com/s0md3v/ReconDog.git
+cd ReconDog
+ls
+chmod +x dog
+
 cd ~/Downloads/
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
