@@ -75,6 +75,14 @@ git clone https://github.com/s0md3v/ReconDog.git
 cd ReconDog
 ls
 chmod +x dog
+cd ~/Desktop/
+mkdir BillCipher
+cd BillCipher
+sudo apt update && sudo apt install ruby python python-pip python3 python3-pip
+sudo apt install httrack whatweb
+git clone https://github.com/GitHackTools/BillCipher
+cd BillCipher
+chmod +x billcipher.py
 
 cd ~/Downloads/
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
