@@ -67,9 +67,9 @@ git clone https://github.com/wishihab/userrecon.git
 cd ~
 mkdir Python/OSINT
 cd Python/OSINT
-git clone https://github.com/m4ll0k/Infoga.git infoga
-cd infoga
-python setup.py install
+git clone https://github.com/The404Hacking/Infoga.git
+cd Infoga
+pip install -r requirements.txt
 cd ~/Downloads/
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
