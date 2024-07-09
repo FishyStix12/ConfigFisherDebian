@@ -51,6 +51,8 @@ pip install tld requests
 git clone https://github.com/s0md3v/Photon.git
 cd Photon
 python3 photon.py -h
+cd .. 
+git clone https://github.com/clr2of8/DPAT.git
 cd ~
 mkdir Ruby
 cd Ruby
