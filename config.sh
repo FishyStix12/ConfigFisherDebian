@@ -184,6 +184,7 @@ mv WHPython_v1.02-main/github_trojan.py ~/Python/Frame/Config
 mv WHPython_v1.02-main/WIns_overflow.py ~/Python/XFun
 mv WHPython_v1.02-main/WIns_OvrWrte.py ~/Python/XFun
 mv WHPython_v1.02-main/statrun.spk ~/Python/XFun
+mv WHPython_v1.02-main.fuzzywuzzy.py ~/Python/XFun
 mv WHPython_v1.02-main/keylogger.py ~/Python/Survey
 mv WHPython_v1.02-main/screenshotter.py ~/Python/Survey
 mv WHPython_v1.02-main/XtremeGame.py ~/Python/XFun
