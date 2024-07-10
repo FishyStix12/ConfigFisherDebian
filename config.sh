@@ -12,6 +12,9 @@ mkdir Themes/Creator
 mkdir Themes/Fun
 mkdir Themes/ASCII
 mkdir Themes/emojis
+mkdir C-Essentials
+mkdir C-Essentials/HelloC
+#(For making C directories)
 mkdir Python
 mkdir Python/NetTools
 mkdir Python/PyLib
@@ -31,6 +34,7 @@ mkdir Go
 mkdir Go/Config
 mkdir Go/fund
 mkdir Go/NetTools
+#(For Making Golang Directories)
 sudo apt-get update
 mkdir Python/SubList3r
 cd Python/SubList3r
@@ -95,12 +99,19 @@ python setup.py
 cd ~/Downloads/
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
+wget -v "https://github.com/FishyStix12/C-Essentials.git" -O "C-Essentials.zip"
 wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/heads/main.zip" -O "Kali-Terminal-Themes-2023-main.zip"
 wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
 wget -v "https://discord.com/api/download?platform=linux&format=deb" -O "discord-deb.deb"
 wget -v "https://download.opera.com/download/get/?id=65262&location=415&nothanks=yes&sub=marine&utm_tryagain=yes" -O "opera-stable_deb.deb" 
 sudo dpkg -i opera-stable_* 
 sudo dpkg -i discord-* 
+unzip C-Essentials.zip
+rm C-Essentials.zip
+chmod +x C-Essentials/*
+rm  C-Essentials/README.md
+mv C-Essentials/helloC.c ~/C-Essentials/HelloC
+#(For moving C Scripts)
 unzip LogScripts-main.zip
 unzip Kali-Terminal-Themes-2023-main.zip
 unzip WHGolang-main.zip
@@ -132,7 +143,7 @@ mv WHGolang-main/toofast.go ~/Go/NetTools
 mv WHGolang-main/worksfast.go ~/Go/NetTools
 mv WHGolang-main/workers.go ~/Go/NetTools
 mv WHGolang-main/ ~/Go/NetTools
-
+#(For moving Golang Scripts)
 rm WHGolang-main/README.md
 rmdir WHGolang-main
 rm WHGolang-main.zip
@@ -243,6 +254,9 @@ cd Downloads/
 chmod +x Darkshark24Themes.sh
 ./Darkshark24Themes.sh
 mv ./Darkshark24Themes.sh ~/Themes/Fun
+cd ~
+cd Desktop
+sudo apt-get install gcc
 cd ~
 sudo apt-get install webhttrack -y
 sudo apt install snapd -y
