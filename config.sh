@@ -6,7 +6,9 @@ mkdir Bash-Scripts/LogFiles
 mkdir Bash-Scripts/Config
 mkdir Bash-Scripts/IpPuller
 mkdir Bash-Scripts/Test
+#(For making New Bash Script Directories)
 mkdir Themes
+mkdir Config
 mkdir Themes/Holiday
 mkdir Themes/Creator
 mkdir Themes/Fun
@@ -30,6 +32,7 @@ mkdir Python/Survey
 mkdir Python/Extract
 mkdir Python/Hier
 mkdir Python/Volat
+#(For making Python Directories)
 mkdir Go
 mkdir Go/Config
 mkdir Go/fund
@@ -198,7 +201,7 @@ mv WHPython_v1.02-main/WIns_overflow.py ~/Python/XFun
 mv WHPython_v1.02-main/sketchcharacters.py ~/Python/XFun
 mv WHPython_v1.02-main/WIns_OvrWrte.py ~/Python/XFun
 mv WHPython_v1.02-main/statrun.spk ~/Python/XFun
-mv WHPython_v1.02-main.fuzzywuzzy.py ~/Python/XFun
+mv WHPython_v1.02-main/fuzzywuzzy.py ~/Python/XFun
 mv WHPython_v1.02-main/keylogger.py ~/Python/Survey
 mv WHPython_v1.02-main/screenshotter.py ~/Python/Survey
 mv WHPython_v1.02-main/XtremeGame.py ~/Python/XFun
@@ -217,6 +220,7 @@ mv WHPython_v1.02-main/tasktactician.py ~/Python/Hier
 mv WHPython_v1.02-main/filetactician.py ~/Python/Hier
 mv WHPython_v1.02-main/volat_conf.sh ~/Python/Volat
 mv WHPython_v1.02-main/dark_wizard_gui.py ~/Python/Sniffs
+#(For moving python scripts)
 rm WHPython_v1.02-main/README.md
 rmdir WHPython_v1.02-main
 rm WHPython_v1.02-main.zip
@@ -231,11 +235,15 @@ mv LogScripts-main/Mid.sh ~/Bash-Scripts/IpPuller
 mv LogScripts-main/SysLogAggregation.sh ~/Bash-Scripts/Syslog
 rm LogScripts-main/README.md
 mv LogScripts-main/Testscript.sh ~/Bash-Scripts/Test
+#(For moving Bash Scripts)
 rmdir LogScripts-main
+mv *.jpeg ~/Config
+mv config.sh ~/Config
 mv Kali-Terminal-Themes-2023-main/Christmastheme.sh ~/Themes/Holiday
 mv Kali-Terminal-Themes-2023-main/Halloweentheme.sh ~/Themes/Holiday
 mv Kali-Terminal-Themes-2023-main/change.term.theme.V1.2.sh ~/Themes/Creator
 rm Kali-Terminal-Themes-2023-main/README.md
+#(For moving theme scripts)
 rmdir Kali-Terminal-Themes-2023-main/
 rm Kali-Terminal-Themes-2023-main.zip
 rm LogScripts-main.zip
@@ -264,5 +272,6 @@ sudo apt-get install webhttrack -y
 sudo apt install snapd -y
 sudo snap install core
 sudo snap install gephi
+#(For etc installs)
 sudo apt-get full-upgrade -y
 sudo apt autoremove
