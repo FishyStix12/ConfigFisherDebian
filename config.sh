@@ -113,6 +113,7 @@ rm  C-Essentials/README.md
 rm C-Essentials/Install_gcc.sh
 mv C-Essentials/helloC.c ~/C-Essentials/HelloC
 #(For moving C Scripts)
+rmdir C-Essentials
 unzip LogScripts-main.zip
 unzip Kali-Terminal-Themes-2023-main.zip
 unzip WHGolang-main.zip
