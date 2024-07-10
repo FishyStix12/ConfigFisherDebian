@@ -110,6 +110,7 @@ unzip C-Essentials.zip
 rm C-Essentials.zip
 chmod +x C-Essentials/*
 rm  C-Essentials/README.md
+rm C-Essentials/Install_gcc.sh
 mv C-Essentials/helloC.c ~/C-Essentials/HelloC
 #(For moving C Scripts)
 unzip LogScripts-main.zip
