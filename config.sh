@@ -32,6 +32,7 @@ mkdir Python/Survey
 mkdir Python/Extract
 mkdir Python/Hier
 mkdir Python/Volat
+mkdir Python/KernEx
 #(For making Python Directories)
 mkdir Go
 mkdir Go/Config
@@ -105,10 +106,23 @@ wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" 
 wget -v "https://github.com/FishyStix12/C-Essentials.git" -O "C-Essentials.zip"
 wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/heads/main.zip" -O "Kali-Terminal-Themes-2023-main.zip"
 wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
+wget -v "https://github.com/reider-roque/linpostexp.git" -O "Kernel-Exploits.zip"
+#(Get new GitHub Repo)
 wget -v "https://discord.com/api/download?platform=linux&format=deb" -O "discord-deb.deb"
-wget -v "https://download.opera.com/download/get/?id=65262&location=415&nothanks=yes&sub=marine&utm_tryagain=yes" -O "opera-stable_deb.deb" 
+wget -v "https://download.opera.com/download/get/?id=65262&location=415&nothanks=yes&sub=marine&utm_tryagain=yes" -O "opera-stable_deb.deb"
+(Wget applications)
 sudo dpkg -i opera-stable_* 
 sudo dpkg -i discord-* 
+unzip Kernel-Exploits.zip
+rm Kernel-Exploits.zip
+chmod +x Kernel-Exploits/*
+mv Kernel-Exploits/linenum.sh ~/Python/KernEx
+mv Kernel-Exploits/linexpchecker.py ~/Python/KernEx
+mv Kernel-Exploits/linexpsuggester.pl ~/Python/KernEx
+mv Kernel-Exploits/linprivchecker.py ~/Python/KernEx
+mv Kernel-Exploits/unixprivcheck.tgz ~/Python/KernEx
+rm Kernel-Exploits/README.md
+rmdir Kernel-Exploits
 unzip C-Essentials.zip
 rm C-Essentials.zip
 chmod +x C-Essentials/*
