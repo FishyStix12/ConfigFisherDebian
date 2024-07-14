@@ -1,4 +1,6 @@
 cd ~
+https://github.com/MazenElzanaty/EmBomber.git
+# (tools with directories)
 mkdir Bash-Scripts
 mkdir Bash-Scripts/Authlog
 mkdir Bash-Scripts/Syslog
