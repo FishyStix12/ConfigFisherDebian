@@ -1,3 +1,3 @@
 # Please Download for configuration script to run
-figlet "DarkShark24" | lolcat
+sudo echo "figlet \"DarkShark24\" | lolcat" >> ~/.bashrc
 sudo echo "# Darkshark24_emojis=🦈🧟💀" >> ~/.bashrc
