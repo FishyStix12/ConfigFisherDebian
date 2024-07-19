@@ -105,7 +105,7 @@ python setup.py
 cd ~/Downloads/
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
-wget -v "https://github.com/FishyStix12/C-Essentials.git" -O "C-Essentials.zip"
+git clone https://github.com/FishyStix12/C-Essentials.git
 wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/heads/main.zip" -O "Kali-Terminal-Themes-2023-main.zip"
 wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
 wget -v "https://github.com/reider-roque/linpostexp.git" -O "Kernel-Exploits.zip"
@@ -125,8 +125,6 @@ mv Kernel-Exploits/linprivchecker.py ~/Python/KernEx
 mv Kernel-Exploits/unixprivcheck.tgz ~/Python/KernEx
 rm Kernel-Exploits/README.md
 rmdir Kernel-Exploits
-unzip C-Essentials.zip
-rm C-Essentials.zip
 chmod +x C-Essentials/*
 rm  C-Essentials/README.md
 rm C-Essentials/Install_gcc.sh
