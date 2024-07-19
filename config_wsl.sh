@@ -1,5 +1,4 @@
-cd ~
-https://github.com/MazenElzanaty/EmBomber.git
+git clone https://github.com/MazenElzanaty/EmBomber.git
 # (tools with directories)
 mkdir Bash-Scripts
 mkdir Bash-Scripts/Authlog
@@ -48,7 +47,7 @@ git clone https://github.com/aboul3la/Sublist3r.git
 sudo apt-get install python-requests
 sudo apt-get install python-dnspython
 sudo apt-get install python-argparse
-cd ~/Desktop/
+cd ~
 mkdir sherlock
 cd sherlock
 git clone https://github.com/sherlock-project/sherlock.git
@@ -72,13 +71,13 @@ gem -v
 gem install bundler
 bundle install
 git clone https://github.com/digininja/CeWL.git
-cd ~
+~
 mkdir Bash-Scripts/UserRecon
-cd Bash-Scripts/UserRecon/
+Bash-Scripts/UserRecon/
 git clone https://github.com/wishihab/userrecon.git
-cd ~
+~
 mkdir Python/OSINT
-cd Python/OSINT
+Python/OSINT
 git clone https://github.com/The404Hacking/Infoga.git
 cd Infoga
 pip install -r requirements.txt
@@ -87,7 +86,7 @@ git clone https://github.com/s0md3v/ReconDog.git
 cd ReconDog
 ls
 chmod +x dog
-cd ~/Desktop/
+cd ~
 mkdir BillCipher
 cd BillCipher
 sudo apt update && sudo apt install ruby python python-pip python3 python3-pip
@@ -95,14 +94,14 @@ sudo apt install httrack whatweb
 git clone https://github.com/GitHackTools/BillCipher
 cd BillCipher
 chmod +x billcipher.py
-cd ..
+cd  ~
 mkdir SEToolkit
 cd SEToolkit
 git clone https://github.com/trustedsec/social-engineer-toolkit setoolkit/
 cd setoolkit
 pip install -r requirements.txt
 python setup.py
-cd ~/Downloads/
+cd ~
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
 wget -v "https://github.com/FishyStix12/C-Essentials.git" -O "C-Essentials.zip"
@@ -165,10 +164,8 @@ rmdir WHGolang-main
 rm WHGolang-main.zip
 sudo apt-get update
 mv WHPython_v1.02-main/pylib_config.sh ~/Python/PyLib
-cd ..
 sudo apt-get install swig
 ./Python/PyLib/pylib_config.sh
-cd Downloads/
 mv WHPython_v1.02-main/libpcap-pycharm.py ~/Python/PyLib
 mv WHPython_v1.02-main/abyssalobserver.py ~/Python/Tmods
 mv WHPython_v1.02-main/auto_bruteforce.py ~/Python/Tmods
@@ -258,9 +255,6 @@ rm Kali-Terminal-Themes-2023-main/README.md
 rmdir Kali-Terminal-Themes-2023-main/
 rm Kali-Terminal-Themes-2023-main.zip
 rm LogScripts-main.zip
-rm discord*
-rm opera*
-cd ~
 mv config.sh /Bash-Scripts/Config
 sudo apt-get update
 cd Go/Config
@@ -271,14 +265,10 @@ sudo apt-get install figlet -y
 sudo apt-get install lolcat -y
 sudo apt-get install terminator -y
 sudo apt-get install hping3 -y
-cd Downloads/
 chmod +x Darkshark24Themes.sh
 ./Darkshark24Themes.sh
 mv ./Darkshark24Themes.sh ~/Themes/Fun
-cd ~
-cd Desktop
 sudo apt-get install gcc
-cd ~
 sudo apt-get install webhttrack -y
 sudo apt install snapd -y
 sudo snap install core
