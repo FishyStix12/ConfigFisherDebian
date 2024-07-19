@@ -129,6 +129,7 @@ chmod +x C-Essentials/*
 rm  C-Essentials/README.md
 rm C-Essentials/Install_gcc.sh
 mv C-Essentials/helloC.c ~/C-Essentials/HelloC
+mv C-Essentials/helloCalt.c ~/C-Essentials/HelloC
 #(For moving C Scripts)
 rmdir C-Essentials
 unzip LogScripts-main.zip
