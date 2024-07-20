@@ -176,6 +176,7 @@ cd Downloads/
 mv WHPython_v1.02-main/libpcap-pycharm.py ~/Python/PyLib
 mv WHPython_v1.02-main/abyssalobserver.py ~/Python/Tmods
 mv WHPython_v1.02-main/auto_bruteforce.py ~/Python/Tmods
+mv WHPython_v1.02-main/tracksremover.sh ~/Python/XFun
 mv WHPython_v1.02-main/grimreaperexecutor.py ~/Python/Tmods
 mv WHPython_v1.02-main/blackwidow.py ~/Python/Tmods
 mv WHPython_v1.02-main/grimrelay.py ~/Python/Tmods
