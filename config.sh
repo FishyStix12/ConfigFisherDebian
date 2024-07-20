@@ -291,4 +291,5 @@ sudo snap install core
 sudo snap install gephi
 #(For etc installs)
 sudo apt-get full-upgrade -y
+apt install -y kali-linux-everything
 sudo apt autoremove
