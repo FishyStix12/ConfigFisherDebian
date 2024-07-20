@@ -206,6 +206,7 @@ mv WHPython_v1.02-main/modul3s.json ~/Python/Frame/Config
 mv WHPython_v1.02-main/github_trojan.py ~/Python/Frame/Config
 mv WHPython_v1.02-main/WIns_overflow.py ~/Python/XFun
 mv WHPython_v1.02-main/sketchcharacters.py ~/Python/XFun
+mv WHPython_v1.02-main/Wintrackrem.ps1 ~/Python/XFun
 mv WHPython_v1.02-main/WIns_OvrWrte.py ~/Python/XFun
 mv WHPython_v1.02-main/tracksremover.sh ~/Python/XFun
 mv WHPython_v1.02-main/statrun.spk ~/Python/XFun
