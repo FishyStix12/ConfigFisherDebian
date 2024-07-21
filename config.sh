@@ -162,7 +162,7 @@ mv WHGolang-main/Concurrentscan.go ~/Go/NetTools
 mv WHGolang-main/toofast.go ~/Go/NetTools
 mv WHGolang-main/worksfast.go ~/Go/NetTools
 mv WHGolang-main/workers.go ~/Go/NetTools
-mv WHGolang-main/ ~/Go/NetTools
+mv WHGolang-main/toofastTo.go ~/Go/NetTools
 #(For moving Golang Scripts)
 rm WHGolang-main/README.md
 rmdir WHGolang-main
