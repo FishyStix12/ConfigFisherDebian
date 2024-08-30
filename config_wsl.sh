@@ -66,6 +66,13 @@ cd dhcpwn
 pip3 install -r requirements.txt
 cd ..
 git clone https://github.com/clr2of8/DPAT.git
+git clone https://github.com/kamorin/DHCPig.git
+cd DHCPig
+python setup.py
+cd ..
+git clone https://github.com/dirkjanm/mitm6.git
+cd mitm6
+python setup.py
 cd ~
 mkdir Ruby
 cd Ruby
