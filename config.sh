@@ -1,4 +1,5 @@
 cd ~
+sudo gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 git clone https://github.com/MazenElzanaty/EmBomber.git
 # (tools with directories)
 mkdir Bash-Scripts
