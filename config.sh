@@ -51,6 +51,7 @@ sudo apt-get install python-requests
 sudo apt-get install python-dnspython
 sudo apt-get install python-argparse
 cd ~/Desktop/
+git clone https://github.com/Trackbool/DerpNSpoof
 mkdir sherlock
 cd sherlock
 git clone https://github.com/sherlock-project/sherlock.git
