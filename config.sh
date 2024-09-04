@@ -1,11 +1,6 @@
 cd ~
 # How to set gnome to dark mode via the cmd
 sudo apt-get update
-gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
-# How to set the terminal to dark mode in the cmd
-gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:<profile-id>/ use-theme-colors false
-gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:<profile-id>/ background-color '#2E3436'
-gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profiles:/:<profile-id>/ foreground-color '#D3D7CF'
 git clone https://github.com/MazenElzanaty/EmBomber.git
 # (tools with directories)
 mkdir Bash-Scripts
