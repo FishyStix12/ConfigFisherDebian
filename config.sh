@@ -51,6 +51,8 @@ sudo apt-get install python-requests
 sudo apt-get install python-dnspython
 sudo apt-get install python-argparse
 cd ~/Desktop/
+# Add tools to desktop
+git clone https://github.com/suljot/shellphish.git
 git clone https://github.com/yoelbassin/DHCP-starvation.git
 git clone https://github.com/Trackbool/DerpNSpoof
 mkdir sherlock
