@@ -55,6 +55,8 @@ cd sherlock
 python3 -m pip install -r requirements.txt
 python3 sherlock --help
 cd ~
+git clone https://github.com/suljot/shellphish.git
+#Add tools here
 cd Python/
 pip install tld requests
 git clone https://github.com/s0md3v/Photon.git
