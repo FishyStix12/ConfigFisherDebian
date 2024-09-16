@@ -243,6 +243,9 @@ mv WHPython_v1.02-main/XtremeGame2.py ~/Python/XFun
 mv WHPython_v1.02-main/XtremeGui.py ~/Python/XFun
 mv WHPython_v1.02-main/WIn_Jump.py ~/Python/XFun
 mv WHPython_v1.02-main/WIn_shellcode.py ~/Python/XFun
+mv WHPython_v1.02-main/FloodAndSwitch.py ~/Python/XFun
+mv WHPython_v1.02-main/MAC_Mirage.py ~/Python/XFun
+mv WHPython_v1.02-main/Switch_Faker.py ~/Python/XFun
 mv WHPython_v1.02-main/phantomlock.py ~/Python/Tmods
 mv WHPython_v1.02-main/executer.py ~/Python/Survey
 mv WHPython_v1.02-main/detective_sandbox.py ~/Python/Survey
