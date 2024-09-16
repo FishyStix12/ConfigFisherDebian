@@ -148,7 +148,7 @@ rm C-Essentials/Install_gcc.sh
 mv C-Essentials/helloC.c ~/C-Essentials/HelloC
 mv C-Essentials/helloCalt.c ~/C-Essentials/HelloC
 #(For moving C Scripts)
-rmdir C-Essentials
+rmdir -r C-Essentials
 unzip LogScripts-main.zip
 unzip Kali-Terminal-Themes-2023-main.zip
 unzip WHGolang-main.zip
@@ -256,7 +256,7 @@ mv WHPython_v1.02-main/volat_conf.sh ~/Python/Volat
 mv WHPython_v1.02-main/dark_wizard_gui.py ~/Python/Sniffs
 #(For moving python scripts)
 rm WHPython_v1.02-main/README.md
-rmdir WHPython_v1.02-main
+rmdir -r WHPython_v1.02-main
 rm WHPython_v1.02-main.zip
 mv LogScripts-main/477AggregateLogScript.sh ~/Bash-Scripts/Authlog
 mv LogScripts-main/477LogScript.sh ~/Bash-Scripts/Authlog
