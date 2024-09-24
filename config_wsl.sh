@@ -114,12 +114,18 @@ cd setoolkit
 pip install -r requirements.txt
 python setup.py
 cd ~
-wget https://raw.githubusercontent.com/fortra/impacket/master/examples/ntlmrelayx.py
-wget https://raw.githubusercontent.com/topotam/PetitPotam/blob/main/PetitPotam.py
-#Download single files from github
+git clone https://github.com/FishyStix12/C-Essentials.git
+# ex 1: wget https://raw.githubusercontent.com/fortra/impacket/master/examples/ntlmrelayx.py
+# ex 2: https://raw.githubusercontent.com/topotam/PetitPotam/blob/main/PetitPotam.py
+# Single Files from github examples above
+cd ~/Python/ #for uploading python repositories to the source.
+wget -v "https://github.com/topotam/PetitPotam.git" -O "PetitPotam_Hijacking_Attack"
+wget -v "https://github.com/fortra/impacket.git" -O "Impacket_for_PetitPotam"
+chmod +x Impacket_for_PetitPotam/*
+chmod +x PetitPotam_Hijacking_Attack/*
+cd ~
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
-git clone https://github.com/FishyStix12/C-Essentials.git
 wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/heads/main.zip" -O "Kali-Terminal-Themes-2023-main.zip"
 wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
 wget -v "https://github.com/reider-roque/linpostexp.git" -O "Kernel-Exploits.zip"
