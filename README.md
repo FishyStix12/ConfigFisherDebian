@@ -1,5 +1,5 @@
 # ConfigKali <br />
-**A script to automatically configure a new Kali Linux Machine for Darkshark24** <br />
+**A script to automatically configure new Kali Linux Environments for Darkshark24** <br />
 WSL = Windows Subsystem for Linux (in script names) <br />
 **Please do the following to ensure the script works:** <br />
 1. Please download the Darkshark24Themes.sh from this Repository <br />
