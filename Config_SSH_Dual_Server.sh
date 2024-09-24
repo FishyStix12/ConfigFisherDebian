@@ -1,5 +1,4 @@
 cd ~
-# How to set gnome to dark mode via the cmd
 sudo apt-get update
 git clone https://github.com/MazenElzanaty/EmBomber.git
 # (tools with directories)
