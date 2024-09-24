@@ -120,9 +120,14 @@ cd setoolkit
 pip install -r requirements.txt
 python setup.py
 cd ~/Downloads/
+git clone https://github.com/FishyStix12/C-Essentials.git
+wget https://raw.githubusercontent.com/fortra/impacket/master/examples/ntlmrelayx.py
+wget https://raw.githubusercontent.com/topotam/PetitPotam/blob/main/PetitPotam.py
+mv PetitPotam.py ~/Python/Hier
+mv ntlmrelayx.py ~/Python/Hier
+# Single Files from github
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
-git clone https://github.com/FishyStix12/C-Essentials.git
 wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/heads/main.zip" -O "Kali-Terminal-Themes-2023-main.zip"
 wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
 wget -v "https://github.com/reider-roque/linpostexp.git" -O "Kernel-Exploits.zip"
