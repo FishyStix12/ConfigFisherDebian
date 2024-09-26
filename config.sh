@@ -4,7 +4,7 @@
 # Creation Date: August 20, 2023
 # Last Updated: September 26, 2024 
 # Description of Script:
-# This script is designed to configure my standard Kali Linux virtual machine and my Cyberdeck
+# This script is designed to configure my standard Debian Linux virtual machine and my Cyberdeck
 # Raspberry Pi environments for my daily work as a cybersecurity professional. It retrieves all
 # my scripts and programs from my GitHub repositories (excluding the Black Hat Python Course 
 # Repository) and organizes them in my home directory. Additionally, the script fetches various 
