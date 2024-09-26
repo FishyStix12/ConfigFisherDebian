@@ -1,8 +1,8 @@
 # ConfigKali <br />
 **A script to automatically configure new Kali Linux Environments** <br />
 WSL = Windows Subsystem for Linux (in script names) <br />
-**Please do the following to ensure the script works:** <br />
+**Please do the following if you want my Terminal Theme:** <br />
 1. Please download the Darkshark24Themes.sh from this Repository <br />
-2. Have root privileges <br />
-![image](https://github.com/FishyStix12/ConfigKali/assets/102126354/c327308e-6024-4019-af9b-f82aec0b1f87)
+![image](https://github.com/user-attachments/assets/ed67b483-607a-4a56-8988-0f2fc57dc6d0)
+
 
