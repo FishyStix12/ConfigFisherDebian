@@ -1,3 +1,24 @@
+#! /usr/bin/bash
+#################################################################################################
+# Author: Nicholas Fisher
+# Creation Date: November 18, 2023
+# Last Updated: September 26, 2024 
+# Description of Script:
+# This script configures my Debian-based Linux dual-boot server for my daily work as a cybersecurity
+# professional. It retrieves my scripts and programs from my GitHub repositories (excluding the Black
+# Hat Python Course Repository) and organizes them in my home directory. Additionally, it fetches various
+# tools and scripts from other GitHub repositories and sources, including the Social Engineering Toolkit,
+# Tox, Bill Cipher, Embomber, and DHCPig, setting them up for use after completion. The script also
+# installs the Kali Linux Everything Meta Package to provide full access to the capabilities of the 
+# Kali distribution and configures my custom terminal theme.
+
+# Furthermore, it installs and configures OpenSSH services, then pauses to guide the user on enabling 
+# SFTP on the server. Finally, it opens the /etc/ssh/sshd_config file, allowing users to make any 
+# necessary changes to the SSH server configuration.
+
+# Additionally if you are setting up and Kali Linux Server and want the Kali-everything metapackage
+# please go to line 371 and uncomment the line by deleting the "#" symbol.
+#################################################################################################
 cd ~
 sudo apt-get update
 git clone https://github.com/MazenElzanaty/EmBomber.git
@@ -326,15 +347,29 @@ cmake ..
 make 
 sudo make install
 #End of Tox Setup
-sudo apt install openssh-server
+sudo apt install openssh-server -y
 sudo systemctl start ssh
 sudo systemctl enable ssh
 sudo systemctl status ssh
+echo "================================================================================="
+echo "Important Information:"
+echo "This script is about to take you to the etc/ssh/sshd_config file."
+echo "Please read this information before proceeding."
+echo " To setup SFTP for your Linux server please follow the steps below:"
+echo "1. Find the Subsystem sftp /usr/lib/openssh/sftp-server line and uncomment it."
+echo "2. Save changes by pressing Ctrl+X, then Y, and enter to save the changes."
+echo "================================================================================="
+# Pause for user input
+read -p "Press Enter to continue..."
+echo "Opening the etc/ssh/sshd_config file now..."
+sudo nano /etc/ssh/sshd_config
+#To edit the OpenSSH parameters edit the /etc/ssh/sshd_config file and restart the ssh service.
 sudo apt-get install webhttrack -y
 sudo apt install snapd -y
 sudo snap install core
 sudo snap install gephi
 #(For etc installs)
 sudo apt-get full-upgrade -y
-sudo apt install -y kali-linux-everything
+# Uncomment if setting up Kali Linux Server 
+# sudo apt install -y kali-linux-everything
 sudo apt autoremove
