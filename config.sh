@@ -10,8 +10,9 @@
 # Repository) and organizes them in my home directory. Additionally, the script fetches various 
 # tools and scripts from other GitHub repositories and sources, such as the Social Engineering 
 # Toolkit, Tox, Bill Cipher, Embomber, and DHCPig, setting them up for use once the script 
-# completes. It also installs the Kali Linux Everything Meta Package to ensure access to the full
-# capabilities of the Kali Linux distribution and configures my custom terminal theme!
+# completes. It also has the capability to install the Kali Linux Everything Meta Package to 
+# ensure access to the full capabilities of the Kali Linux distribution and configures 
+# my custom terminal theme!
 
 # Additionally if you are setting up and Kali Linux Server and want the Kali-everything metapackage
 # please go to line 354 and uncomment the line by deleting the "#" symbol.
