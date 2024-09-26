@@ -12,6 +12,9 @@
 # Toolkit, Tox, Bill Cipher, Embomber, and DHCPig, setting them up for use once the script 
 # completes. It also installs the Kali Linux Everything Meta Package to ensure access to the full
 # capabilities of the Kali Linux distribution and configures my custom terminal theme!
+
+# Additionally if you are setting up and Kali Linux Server and want the Kali-everything metapackage
+# please go to line 354 and uncomment the line by deleting the "#" symbol.
 #################################################################################################
 cd ~
 sudo apt-get update
@@ -347,5 +350,6 @@ sudo snap install core
 sudo snap install gephi
 #(For etc installs)
 sudo apt-get full-upgrade -y
-sudo apt install -y kali-linux-everything
+# Uncomment if setting up Kali Linux Server 
+# sudo apt install -y kali-linux-everything
 sudo apt autoremove
