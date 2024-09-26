@@ -142,7 +142,8 @@ python setup.py
 cd ~/Downloads/
 # ex 1: wget https://raw.githubusercontent.com/fortra/impacket/master/examples/ntlmrelayx.py
 # ex 2: https://raw.githubusercontent.com/topotam/PetitPotam/blob/main/PetitPotam.py
-# Single Files from github examples above
+wget https://raw.githubusercontent.com/FishyStix12/ConfigFisherDebian/main/Darkshark24Themes.sh
+# Single Files from github above
 cd ~/Python/ #for uploading python repositories to the source.
 wget -v "https://github.com/topotam/PetitPotam.git" -O "PetitPotam_Hijacking_Attack"
 wget -v "https://github.com/fortra/impacket.git" -O "Impacket_for_PetitPotam"
