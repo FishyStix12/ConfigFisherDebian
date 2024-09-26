@@ -1,3 +1,21 @@
+#! /usr/bin/bash
+#################################################################################################
+# Author: Nicholas Fisher
+# Creation Date: August 20, 2023
+# Last Updated: September 26, 2024 
+# Description of Script:
+# This script is designed to configure my standard Debian Linux virtual Windows Subsystem for Linux (WSL)
+# environments for my daily work as a cybersecurity professional. It retrieves all my scripts and programs
+# from my GitHub repositories (excluding the Black Hat Python Course Repository) and organizes them in my
+# home directory. Additionally, the script fetches various tools and scripts from other GitHub repositories
+# and sources, such as the Social Engineering Toolkit, Tox, Bill Cipher, Embomber, and DHCPig, setting them
+# up for use once the script completes. It also has the capability to install the Kali Linux Everything Meta
+# Package to ensure access to the full capabilities of the Kali Linux distribution and configures my custom 
+# terminal theme!
+
+# Additionally if you are setting up and Kali Linux Server and want the Kali-everything metapackage
+# please go to line 333 and uncomment the line by deleting the "#" symbol.
+#################################################################################################
 git clone https://github.com/MazenElzanaty/EmBomber.git
 # (tools with directories)
 mkdir Bash-Scripts
@@ -311,5 +329,6 @@ sudo snap install core
 sudo snap install gephi
 #(For etc installs)
 sudo apt-get full-upgrade -y
-sudo apt install -y kali-linux-everything
+# Uncomment if setting up Kali Linux Server 
+# sudo apt install -y kali-linux-everything
 sudo apt autoremove
