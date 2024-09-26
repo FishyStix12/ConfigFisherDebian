@@ -141,7 +141,11 @@ cd ~/Downloads/
 git clone https://github.com/FishyStix12/C-Essentials.git
 # ex 1: wget https://raw.githubusercontent.com/fortra/impacket/master/examples/ntlmrelayx.py
 # ex 2: https://raw.githubusercontent.com/topotam/PetitPotam/blob/main/PetitPotam.py
+wget https://raw.githubusercontent.com/FishyStix12/ConfigFisherDebian/main/1339284.jpeg
 wget https://raw.githubusercontent.com/FishyStix12/ConfigFisherDebian/main/Darkshark24Themes.sh
+chmod +x Darkshark24Themes.sh
+./DarksharkThemes.sh
+mv ./Darkshark24Themes.sh ~/Themes/Fun
 # Single Files from github
 cd ~/Python/ #for uploading python repositories to the source.
 wget -v "https://github.com/topotam/PetitPotam.git" -O "PetitPotam_Hijacking_Attack"
@@ -324,11 +328,6 @@ sudo apt-get install figlet -y
 sudo apt-get install lolcat -y
 sudo apt-get install terminator -y
 sudo apt-get install hping3 -y
-cd Downloads/
-chmod +x Darkshark24Themes.sh
-./Darkshark24Themes.sh
-mv ./Darkshark24Themes.sh ~/Themes/Fun
-cd ~
 cd Desktop
 sudo apt-get install gcc
 cd ~
