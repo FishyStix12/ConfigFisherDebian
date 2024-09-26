@@ -1,3 +1,13 @@
+#! /usr/bin/bash
+#################################################################################################
+# Author: Nicholas Fisher
+# Creation Date: August 20, 2023
+# Last Updated: September 26, 2024 
+# Description of Script:
+# This script I developed to help setup a custom terminal theme for my friend Neil. In order for the
+# emojis to to work on your Linux prompt please copy the emojis you want then go to the .zshrc/.bashrc
+# file and paste those values in the prompt_symbol variable.
+#################################################################################################
 sudo apt-get update
 sudo apt-get install figlet -y
 sudo apt-get install lolcat -y
