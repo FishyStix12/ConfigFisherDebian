@@ -330,11 +330,6 @@ sudo apt-get install figlet -y
 sudo apt-get install lolcat -y
 sudo apt-get install terminator -y
 sudo apt-get install hping3 -y
-cd Downloads/
-chmod +x Darkshark24Themes.sh
-./Darkshark24Themes.sh
-mv ./Darkshark24Themes.sh ~/Themes/Fun
-cd ~
 cd Desktop
 sudo apt-get install gcc
 cd ~
