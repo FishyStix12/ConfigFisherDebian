@@ -152,6 +152,14 @@ wget -v "https://github.com/topotam/PetitPotam.git" -O "PetitPotam_Hijacking_Att
 wget -v "https://github.com/fortra/impacket.git" -O "Impacket_for_PetitPotam"
 chmod +x Impacket_for_PetitPotam/*
 chmod +x PetitPotam_Hijacking_Attack/*
+cd ~
+#Tox setup
+#Grabs the file from the download link
+wget "https://github.com/Jfreegman/toxic/releases/download/v0.15.1/toxic-minimal-static-musl_linux_x86-64.tar.xz" -O "toxcore.tar.xz"
+#Extracts all files from archive tar
+tar -xf toxcore.tar.xz
+# Gives all scripts in the toxcore directory execute permissions
+chmod +x toxcore/*
 cd ~/Downloads/
 wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
