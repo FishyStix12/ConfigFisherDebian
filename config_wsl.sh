@@ -132,7 +132,8 @@ cd setoolkit
 pip install -r requirements.txt
 python setup.py
 cd ~
-git clone https://github.com/FishyStix12/C-Essentials.git
+wget -v "https://github.com/FishyStix12/C-Essentials/archive/refs/heads/main.zip" -O "C-Essentials.zip"
+unzip C-Essentials.zip
 # ex 1: wget https://raw.githubusercontent.com/fortra/impacket/master/examples/ntlmrelayx.py
 # ex 2: https://raw.githubusercontent.com/topotam/PetitPotam/blob/main/PetitPotam.py
 # Single Files from github examples above
@@ -174,6 +175,7 @@ rm C-Essentials/Install_gcc.sh
 mv C-Essentials/helloC.c ~/C-Essentials/HelloC
 mv C-Essentials/helloCalt.c ~/C-Essentials/HelloC
 #(For moving C Scripts)
+rm C-Essentials.zip
 rmdir C-Essentials
 unzip LogScripts-main.zip
 unzip Kali-Terminal-Themes-2023-main.zip
