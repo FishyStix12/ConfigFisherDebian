@@ -140,6 +140,7 @@ cd setoolkit
 pip install -r requirements.txt
 python setup.py
 cd ~/Downloads/
+wget -v "https://github.com/FishyStix12/C-Essentials/archive/refs/heads/main.zip" -O "C-Essentials.zip"
 # ex 1: wget https://raw.githubusercontent.com/fortra/impacket/master/examples/ntlmrelayx.py
 # ex 2: https://raw.githubusercontent.com/topotam/PetitPotam/blob/main/PetitPotam.py
 wget https://raw.githubusercontent.com/FishyStix12/ConfigFisherDebian/main/1339284.jpeg
@@ -147,7 +148,7 @@ wget https://raw.githubusercontent.com/FishyStix12/ConfigFisherDebian/main/Darks
 chmod +x Darkshark24Themes.sh
 ./DarksharkThemes.sh
 mv ./Darkshark24Themes.sh ~/Themes/Fun
-# Single Files from github above
+# Single Files from github
 cd ~/Python/ #for uploading python repositories to the source.
 wget -v "https://github.com/topotam/PetitPotam.git" -O "PetitPotam_Hijacking_Attack"
 wget -v "https://github.com/fortra/impacket.git" -O "Impacket_for_PetitPotam"
@@ -162,9 +163,8 @@ tar -xf toxcore.tar.xz
 # Gives all scripts in the toxcore directory execute permissions
 chmod +x toxcore/*
 cd ~/Downloads/
-wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
+wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.1-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
-git clone https://github.com/FishyStix12/C-Essentials.git
 wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/heads/main.zip" -O "Kali-Terminal-Themes-2023-main.zip"
 wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
 wget -v "https://github.com/reider-roque/linpostexp.git" -O "Kernel-Exploits.zip"
@@ -184,18 +184,20 @@ mv Kernel-Exploits/linprivchecker.py ~/Python/KernEx
 mv Kernel-Exploits/unixprivcheck.tgz ~/Python/KernEx
 rm Kernel-Exploits/README.md
 rmdir Kernel-Exploits
+unzip C-Essentials.zip
 chmod +x C-Essentials/*
 rm  C-Essentials/README.md
 rm C-Essentials/Install_gcc.sh
 mv C-Essentials/helloC.c ~/C-Essentials/HelloC
 mv C-Essentials/helloCalt.c ~/C-Essentials/HelloC
 #(For moving C Scripts)
-rmdir C-Essentials
+rm C-Essentials.zip
+rmdir ~/Downloads/C-Essentials
 unzip LogScripts-main.zip
 unzip Kali-Terminal-Themes-2023-main.zip
 unzip WHGolang-main.zip
-unzip WHPython_v1.02-main.zip
-chmod +x WHPython_v1.02-main/*
+unzip WHPython_v1.1-main.zip
+chmod +x WHPython_v1.1-main/*
 chmod +x WHGolang-main/*
 chmod +x LogScripts-main/*
 chmod +x Kali-Terminal-Themes-2023-main/*
