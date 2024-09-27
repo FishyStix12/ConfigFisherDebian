@@ -138,7 +138,7 @@ cd setoolkit
 pip install -r requirements.txt
 python setup.py
 cd ~/Downloads/
-git clone https://github.com/FishyStix12/C-Essentials.git
+wget -v "https://github.com/FishyStix12/C-Essentials/archive/refs/heads/main.zip" -O "C-Essentials.zip"
 # ex 1: wget https://raw.githubusercontent.com/fortra/impacket/master/examples/ntlmrelayx.py
 # ex 2: https://raw.githubusercontent.com/topotam/PetitPotam/blob/main/PetitPotam.py
 wget https://raw.githubusercontent.com/FishyStix12/ConfigFisherDebian/main/1339284.jpeg
@@ -161,7 +161,7 @@ tar -xf toxcore.tar.xz
 # Gives all scripts in the toxcore directory execute permissions
 chmod +x toxcore/*
 cd ~/Downloads/
-wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.02-main.zip"
+wget -v "https://github.com/FishyStix12/WHPython_v1.02/archive/refs/heads/main.zip" -O "WHPython_v1.1-main.zip"
 wget -v "https://github.com/FishyStix12/LogScripts/archive/refs/heads/main.zip" -O "LogScripts-main.zip"
 wget -v "https://github.com/FishyStix12/Kali-Terminal-Themes-2023/archive/refs/heads/main.zip" -O "Kali-Terminal-Themes-2023-main.zip"
 wget -v "https://github.com/FishyStix12/WHGolang/archive/refs/heads/main.zip" -O "WHGolang-main.zip"
@@ -182,18 +182,20 @@ mv Kernel-Exploits/linprivchecker.py ~/Python/KernEx
 mv Kernel-Exploits/unixprivcheck.tgz ~/Python/KernEx
 rm Kernel-Exploits/README.md
 rmdir Kernel-Exploits
+unzip C-Essentials.zip
 chmod +x C-Essentials/*
 rm  C-Essentials/README.md
 rm C-Essentials/Install_gcc.sh
 mv C-Essentials/helloC.c ~/C-Essentials/HelloC
 mv C-Essentials/helloCalt.c ~/C-Essentials/HelloC
 #(For moving C Scripts)
-rmdir C-Essentials
+rm C-Essentials.zip
+rmdir ~/Downloads/C-Essentials
 unzip LogScripts-main.zip
 unzip Kali-Terminal-Themes-2023-main.zip
 unzip WHGolang-main.zip
-unzip WHPython_v1.02-main.zip
-chmod +x WHPython_v1.02-main/*
+unzip WHPython_v1.1-main.zip
+chmod +x WHPython_v1.1-main/*
 chmod +x WHGolang-main/*
 chmod +x LogScripts-main/*
 chmod +x Kali-Terminal-Themes-2023-main/*
@@ -225,82 +227,82 @@ rm WHGolang-main/README.md
 rmdir WHGolang-main
 rm WHGolang-main.zip
 sudo apt-get update
-mv WHPython_v1.02-main/pylib_config.sh ~/Python/PyLib
+mv WHPython_v1.1-main/pylib_config.sh ~/Python/PyLib
 cd ..
 sudo apt-get install swig
 ./Python/PyLib/pylib_config.sh
 cd Downloads/
-mv WHPython_v1.02-main/libpcap-pycharm.py ~/Python/PyLib
-mv WHPython_v1.02-main/abyssalobserver.py ~/Python/Tmods
-mv WHPython_v1.02-main/auto_bruteforce.py ~/Python/Tmods
-mv WHPython_v1.02-main/tracksremover.sh ~/Python/XFun
-mv WHPython_v1.02-main/grimreaperexecutor.py ~/Python/Tmods
-mv WHPython_v1.02-main/blackwidow.py ~/Python/Tmods
-mv WHPython_v1.02-main/grimrelay.py ~/Python/Tmods
-mv WHPython_v1.02-main/phatomlock.py ~/Python/Tmods
-mv WHPython_v1.02-main/shadowsender.py ~/Python/Tmods
-mv WHPython_v1.02-main/phantomfile.py ~/Python/Tmods
-mv WHPython_v1.02-main/dirlister.py ~/Python/Tmods
-mv WHPython_v1.02-main/environment.py ~/Python/Tmods
-mv WHPython_v1.02-main/platformer.py ~/Python/Tmods
-mv WHPython_v1.02-main/VenvConfig.sh ~/Python/NetTools
-mv WHPython_v1.02-main/vs_code_pylib_conf.sh ~/Python/PyLib
-mv WHPython_v1.02-main/IDEConfig.sh ~/Python/NetTools
-mv WHPython_v1.02-main/TCPClient.py ~/Python/NetTools
-mv WHPython_v1.02-main/UDPClient.py ~/Python/NetTools
-mv WHPython_v1.02-main/TCPServer.py ~/Python/NetTools
-mv WHPython_v1.02-main/netcat.py ~/Python/NetTools
-mv WHPython_v1.02-main/proxy.py ~/Python/NetTools
-mv WHPython_v1.02-main/ssh_cmd.py ~/Python/NetTools
-mv WHPython_v1.02-main/ssh_remd.py ~/Python/NetTools
-mv WHPython_v1.02-main/ssh_server.py ~/Python/NetTools
-mv WHPython_v1.02-main/rforward.py ~/Python/NetTools
-mv WHPython_v1.02-main/net_terrorizer.py ~/Python/Sniffs
-mv WHPython_v1.02-main/darknet_recon.py ~/Python/Sniffs
-mv WHPython_v1.02-main/tport_sniffer.py ~/Python/Scapy
-mv WHPython_v1.02-main/file_funneler.py ~/Python/Etc
-mv WHPython_v1.02-main/arp_poiser.py ~/Python/Scapy
-mv WHPython_v1.02-main/rcap.py ~/Python/Scapy
-mv WHPython_v1.02-main/detect.py ~/Python/Scapy
-mv WHPython_v1.02-main/web_pather.py ~/Python/Web
-mv WHPython_v1.02-main/ravager.py ~/Python/Web
-mv WHPython_v1.02-main/login_bruteforce.py ~/Python/Web
-mv WHPython_v1.02-main/trojan_linux_framewrk_conf.sh ~/Python/Frame
-mv WHPython_v1.02-main/push_trojan_updates.sh ~/Python/Frame
-mv WHPython_v1.02-main/data_pull.sh ~/Python/Frame
-mv WHPython_v1.02-main/modul3s.json ~/Python/Frame/Config
-mv WHPython_v1.02-main/github_trojan.py ~/Python/Frame/Config
-mv WHPython_v1.02-main/WIns_overflow.py ~/Python/XFun
-mv WHPython_v1.02-main/sketchcharacters.py ~/Python/XFun
-mv WHPython_v1.02-main/WIns_OvrWrte.py ~/Python/XFun
-mv WHPython_v1.02-main/Wintrackrem.ps1 ~/Python/XFun
-mv WHPython_v1.02-main/statrun.spk ~/Python/XFun
-mv WHPython_v1.02-main/fuzzywuzzy.py ~/Python/XFun
-mv WHPython_v1.02-main/keylogger.py ~/Python/Survey
-mv WHPython_v1.02-main/screenshotter.py ~/Python/Survey
-mv WHPython_v1.02-main/XtremeGame.py ~/Python/XFun
-mv WHPython_v1.02-main/XtremeGame2.py ~/Python/XFun
-mv WHPython_v1.02-main/XtremeGui.py ~/Python/XFun
-mv WHPython_v1.02-main/WIn_Jump.py ~/Python/XFun
-mv WHPython_v1.02-main/WIn_shellcode.py ~/Python/XFun
-mv WHPython_v1.02-main/FloodAndSwitch.py ~/Python/XFun
-mv WHPython_v1.02-main/MAC_Mirage.py ~/Python/XFun
-mv WHPython_v1.02-main/Switch_Faker.py ~/Python/XFun
-mv WHPython_v1.02-main/phantomlock.py ~/Python/Tmods
-mv WHPython_v1.02-main/executer.py ~/Python/Survey
-mv WHPython_v1.02-main/detective_sandbox.py ~/Python/Survey
-mv WHPython_v1.02-main/cryptoraptor.py ~/Python/Extract
-mv WHPython_v1.02-main/sneakysender.py ~/Python/Extract
-mv WHPython_v1.02-main/transmittron.py ~/Python/Extract
-mv WHPython_v1.02-main/codeninja.py ~/Python/Extract
-mv WHPython_v1.02-main/tasktactician.py ~/Python/Hier
-mv WHPython_v1.02-main/filetactician.py ~/Python/Hier
-mv WHPython_v1.02-main/volat_conf.sh ~/Python/Volat
-mv WHPython_v1.02-main/dark_wizard_gui.py ~/Python/Sniffs
+mv WHPython_v1.1-main/libpcap-pycharm.py ~/Python/PyLib
+mv WHPython_v1.1-main/abyssalobserver.py ~/Python/Tmods
+mv WHPython_v1.1-main/auto_bruteforce.py ~/Python/Tmods
+mv WHPython_v1.1-main/tracksremover.sh ~/Python/XFun
+mv WHPython_v1.1-main/grimreaperexecutor.py ~/Python/Tmods
+mv WHPython_v1.1-main/blackwidow.py ~/Python/Tmods
+mv WHPython_v1.1-main/grimrelay.py ~/Python/Tmods
+mv WHPython_v1.1-main/phatomlock.py ~/Python/Tmods
+mv WHPython_v1.1-main/shadowsender.py ~/Python/Tmods
+mv WHPython_v1.1-main/phantomfile.py ~/Python/Tmods
+mv WHPython_v1.1-main/dirlister.py ~/Python/Tmods
+mv WHPython_v1.1-main/environment.py ~/Python/Tmods
+mv WHPython_v1.1-main/platformer.py ~/Python/Tmods
+mv WHPython_v1.1-main/VenvConfig.sh ~/Python/NetTools
+mv WHPython_v1.1-main/vs_code_pylib_conf.sh ~/Python/PyLib
+mv WHPython_v1.1-main/IDEConfig.sh ~/Python/NetTools
+mv WHPython_v1.1-main/TCPClient.py ~/Python/NetTools
+mv WHPython_v1.1-main/UDPClient.py ~/Python/NetTools
+mv WHPython_v1.1-main/TCPServer.py ~/Python/NetTools
+mv WHPython_v1.1-main/netcat.py ~/Python/NetTools
+mv WHPython_v1.1-main/proxy.py ~/Python/NetTools
+mv WHPython_v1.1-main/ssh_cmd.py ~/Python/NetTools
+mv WHPython_v1.1-main/ssh_remd.py ~/Python/NetTools
+mv WHPython_v1.1-main/ssh_server.py ~/Python/NetTools
+mv WHPython_v1.1-main/rforward.py ~/Python/NetTools
+mv WHPython_v1.1-main/net_terrorizer.py ~/Python/Sniffs
+mv WHPython_v1.1-main/darknet_recon.py ~/Python/Sniffs
+mv WHPython_v1.1-main/tport_sniffer.py ~/Python/Scapy
+mv WHPython_v1.1-main/file_funneler.py ~/Python/Etc
+mv WHPython_v1.1-main/arp_poiser.py ~/Python/Scapy
+mv WHPython_v1.1-main/rcap.py ~/Python/Scapy
+mv WHPython_v1.1-main/detect.py ~/Python/Scapy
+mv WHPython_v1.1-main/web_pather.py ~/Python/Web
+mv WHPython_v1.1-main/ravager.py ~/Python/Web
+mv WHPython_v1.1-main/login_bruteforce.py ~/Python/Web
+mv WHPython_v1.1-main/trojan_linux_framewrk_conf.sh ~/Python/Frame
+mv WHPython_v1.1-main/push_trojan_updates.sh ~/Python/Frame
+mv WHPython_v1.1-main/data_pull.sh ~/Python/Frame
+mv WHPython_v1.1-main/modul3s.json ~/Python/Frame/Config
+mv WHPython_v1.1-main/github_trojan.py ~/Python/Frame/Config
+mv WHPython_v1.1-main/WIns_overflow.py ~/Python/XFun
+mv WHPython_v1.1-main/sketchcharacters.py ~/Python/XFun
+mv WHPython_v1.1-main/WIns_OvrWrte.py ~/Python/XFun
+mv WHPython_v1.1-main/Wintrackrem.ps1 ~/Python/XFun
+mv WHPython_v1.1-main/statrun.spk ~/Python/XFun
+mv WHPython_v1.1-main/fuzzywuzzy.py ~/Python/XFun
+mv WHPython_v1.1-main/keylogger.py ~/Python/Survey
+mv WHPython_v1.1-main/screenshotter.py ~/Python/Survey
+mv WHPython_v1.1-main/XtremeGame.py ~/Python/XFun
+mv WHPython_v1.1-main/XtremeGame2.py ~/Python/XFun
+mv WHPython_v1.1-main/XtremeGui.py ~/Python/XFun
+mv WHPython_v1.1-main/WIn_Jump.py ~/Python/XFun
+mv WHPython_v1.1-main/WIn_shellcode.py ~/Python/XFun
+mv WHPython_v1.1-main/FloodAndSwitch.py ~/Python/XFun
+mv WHPython_v1.1-main/MAC_Mirage.py ~/Python/XFun
+mv WHPython_v1.1-main/Switch_Faker.py ~/Python/XFun
+mv WHPython_v1.1-main/phantomlock.py ~/Python/Tmods
+mv WHPython_v1.1-main/executer.py ~/Python/Survey
+mv WHPython_v1.1-main/detective_sandbox.py ~/Python/Survey
+mv WHPython_v1.1-main/cryptoraptor.py ~/Python/Extract
+mv WHPython_v1.1-main/sneakysender.py ~/Python/Extract
+mv WHPython_v1.1-main/transmittron.py ~/Python/Extract
+mv WHPython_v1.1-main/codeninja.py ~/Python/Extract
+mv WHPython_v1.1-main/tasktactician.py ~/Python/Hier
+mv WHPython_v1.1-main/filetactician.py ~/Python/Hier
+mv WHPython_v1.1-main/volat_conf.sh ~/Python/Volat
+mv WHPython_v1.1-main/dark_wizard_gui.py ~/Python/Sniffs
 #(For moving python scripts)
-rm WHPython_v1.02-main/README.md
-rmdir WHPython_v1.02-main
-rm WHPython_v1.02-main.zip
+rm WHPython_v1.1-main/README.md
+rmdir WHPython_v1.1-main
+rm WHPython_v1.1-main.zip
 mv LogScripts-main/477AggregateLogScript.sh ~/Bash-Scripts/Authlog
 mv LogScripts-main/477LogScript.sh ~/Bash-Scripts/Authlog
 mv LogScripts-main/Fisher.20230922_1200.34-219-130-168.auth.log ~/Bash-Scripts/LogFiles
