@@ -18,7 +18,6 @@
 # please go to line 354 and uncomment the line by deleting the "#" symbol.
 #################################################################################################
 cd ~
-sudo apt-get update
 git clone https://github.com/MazenElzanaty/EmBomber.git
 # (tools with directories)
 mkdir Bash-Scripts
