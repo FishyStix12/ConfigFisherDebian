@@ -350,3 +350,20 @@ sudo apt-get full-upgrade -y
 # Uncomment if setting up Kali Linux Server 
 # sudo apt install -y kali-linux-everything
 sudo apt autoremove
+echo $XDG_CURRENT_DESKTOP
+sudo apt install -y kali-desktop-gnome
+sudo apt install lightdm
+sudo apt install sddm
+sudo apt install xdm
+sudo apt install lxdm
+sudo apt install slim
+sudo apt install sway
+echo "================================================================================="
+echo "Important Information:"
+echo "This script is about to take you to change you desktop environment, if you do not"
+Echo " want to change press Ctrl+C."
+echo "================================================================================="
+# Pause for user input
+read -p "Press Enter to continue..."
+sudo update-alternatives --config x-session-manager
+sudo reboot
