@@ -360,6 +360,21 @@ read -p "Press Enter to continue..."
 echo "Opening the etc/ssh/sshd_config file now..."
 sudo nano /etc/ssh/sshd_config
 #To edit the OpenSSH parameters edit the /etc/ssh/sshd_config file and restart the ssh service.
+echo $XDG_CURRENT_DESKTOP
+sudo apt install -y kali-desktop-gnome
+sudo apt install lightdm
+sudo apt install sddm
+sudo apt install xdm
+sudo apt install lxdm
+sudo apt install slim
+sudo apt install sway
+echo "================================================================================="
+echo "Important Information:"
+echo "This script is about to take you to change you desktop environment, if you do not"
+Echo " want to change press Ctrl+C."
+echo "================================================================================="
+# Pause for user input
+read -p "Press Enter to continue..."
 sudo apt-get install webhttrack -y
 sudo apt install snapd -y
 sudo snap install core
