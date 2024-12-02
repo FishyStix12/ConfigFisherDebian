@@ -49,20 +49,13 @@ $aliases = @{
     'nano'      = 'notepad.exe'           # Open notepad using nano alias
 }
 
-$conflictingAliases = @('ls', 'ps', 'mv', 'rm', 'cat', 'cp', 'curl', 'wget', 'pwd', 'kill', 'rmdir')
-foreach ($alias in $conflictingAliases) {
-    if (Get-Alias $alias -ErrorAction SilentlyContinue) {
-        try {
-            Remove-Item Alias:$alias -Force
-        } catch {
-            Write-Host "Cannot remove alias: $alias"
-        }
-    }
-}
-
-# Creating the aliases in the current scope (local scope)
+# Loop through aliases and create them if they don't already exist
 foreach ($alias in $aliases.GetEnumerator()) {
-    Set-Alias -Name $alias.Key -Value $alias.Value -Scope Global
+    if (-not (Get-Alias $alias.Key -ErrorAction SilentlyContinue)) {
+        New-Alias -Name $alias.Key -Value $alias.Value
+    } else {
+        Write-Host "Alias $($alias.Key) already exists. Skipping."
+    }
 }
 
 Write-Host "Linux-style aliases have been created for PowerShell commands."
