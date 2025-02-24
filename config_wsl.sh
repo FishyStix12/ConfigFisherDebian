@@ -8,7 +8,7 @@
 # environments for my daily work as a cybersecurity professional. It retrieves all my scripts and programs
 # from my GitHub repositories (excluding the Black Hat Python Course Repository) and organizes them in my
 # home directory. Additionally, the script fetches various tools and scripts from other GitHub repositories
-# and sources, such as the Social Engineering Toolkit, Tox, Bill Cipher, Embomber, and DHCPig, setting them
+# and sources, such as the Social Engineering Toolkit, Tox, Embomber, and DHCPig, setting them
 # up for use once the script completes. It also has the capability to install the Kali Linux Everything Meta
 # Package to ensure access to the full capabilities of the Kali Linux distribution and configures my custom 
 # terminal theme!
@@ -116,14 +116,6 @@ git clone https://github.com/s0md3v/ReconDog.git
 cd ReconDog
 ls
 chmod +x dog
-cd ~
-mkdir BillCipher
-cd BillCipher
-sudo apt update && sudo apt install ruby python python-pip python3 python3-pip
-sudo apt install httrack whatweb
-git clone https://github.com/GitHackTools/BillCipher
-cd BillCipher
-chmod +x billcipher.py
 cd  ~
 mkdir SEToolkit
 cd SEToolkit
